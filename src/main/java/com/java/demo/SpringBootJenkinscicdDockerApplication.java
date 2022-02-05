@@ -18,8 +18,8 @@ public class SpringBootJenkinscicdDockerApplication {
 	}
 	@GetMapping("/msg")
 	public String greeting() {
-		System.out.println("welcome to Docker world !!!!!!!!!!!!!!!!"+new Date());
-		return "welcome to Docker world !!!!!!!!!!!!!!!!";
+		System.out.println("welcome to Dockers hello world !!!!!!!!!!!!!!!!"+new Date());
+		return "welcome to Dockers hello world !!!!!!!!!!!!!!!!";
 	}
 	
 }
