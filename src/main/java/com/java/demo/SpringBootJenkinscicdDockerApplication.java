@@ -20,7 +20,7 @@ public class SpringBootJenkinscicdDockerApplication {
 	public String greeting() {
 		System.out.println("welcome to Dockers hello world INV-22.0 branch"
 				+ "!!!!!!!!!!!!!!!!"+new Date());
-		return "welcome to Dockers hello world example !!!!!!!!!!!!";
+		return "welcome to Dockers hello world example !!!!hg!!!!!!!!";
 	}
 	
 }
